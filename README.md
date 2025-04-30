@@ -58,15 +58,12 @@ Simple RNN (1.59 with 50 units) and LSTM (1.82 with 50 units) performed slightly
 The optimal number of units varied across stocks and model types, reinforcing the importance of hyperparameter tuning. For instance, the best Simple RNN for GOOGL had 30 units, while the best LSTM for GOOGL had 50 units.
 
 ### Model Comparison
-#### GRU generally performed competitively, often achieving the lowest or comparable RMSE values across the different stocks, especially for GOOGL and MSFT. This suggests that GRUs might be a suitable choice for this type of stock price prediction task.
+- GRU generally performed competitively, often achieving the lowest or comparable RMSE values across the different stocks, especially for GOOGL and MSFT. This suggests that GRUs might be a suitable choice for this type of stock price prediction task.
+- Simple RNN also demonstrated strong performance in some cases, particularly for IBM.
+- LSTM, while a powerful architecture, did not consistently outperform Simple RNN or GRU in this specific scenario.
 
-#### Simple RNN also demonstrated strong performance in some cases, particularly for IBM.
-
-#### LSTM, while a powerful architecture, did not consistently outperform Simple RNN or GRU in this specific scenario.
-
-## Conclusion
+## Final Conclusion
 The study demonstrates that RNNs can capture temporal patterns in stock price data. However, the prediction accuracy varies significantly across different stocks.
-
 - The models performed relatively well for IBM and MSFT, achieving lower RMSE values, while AMZN and GOOGL proved more challenging to predict.
 - The choice of RNN architecture and hyperparameters plays a crucial role in model performance.
 - GRUs showed promise in this analysis.
@@ -77,13 +74,13 @@ The study demonstrates that RNNs can capture temporal patterns in stock price da
 
 ## Technologies Used
 - Python Programming
-- NumPy objects to create arrays/metrics to apply DL/ML modelsPython Programming
+- NumPy objects to create arrays/metrics to apply DL/ML models
 - Panda for Data Wrangling and Data manipulation purposes
 - Seaborn to create visually appealing statistical graphics
 - Matplotlib to create a range of plots and visualizations
 - Iterator tool is to create iterator for efficient looping 
 - Scikit Learn ML (Machine Learning) Library
-- Keras is a high-level API for building and training NN (Neural Networks) on top of TensorFlow
+- Keras is a high-level API for building and training NNs on top of TensorFlow
 - TensorFlow is an open-source ML framework for building and developing ML models
 - All the versions are the latest as of April 2025
 
