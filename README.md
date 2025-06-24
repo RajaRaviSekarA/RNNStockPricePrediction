@@ -6,6 +6,7 @@
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
+* [Contact](#Contact)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -18,6 +19,20 @@
 - Predict Multiple target variables, Run the model and evaluate on the validation data set
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+## Technologies Used
+- Python Programming
+- NumPy objects to create arrays/metrics to apply DL/ML models
+- Panda for Data Wrangling and Data manipulation purposes
+- Seaborn to create visually appealing statistical graphics
+- Matplotlib to create a range of plots and visualizations
+- Iterator tool is to create iterator for efficient looping 
+- Scikit Learn ML (Machine Learning) Library
+- Keras is a high-level API for building and training NNs on top of TensorFlow
+- TensorFlow is an open-source ML framework for building and developing ML models
+- All the versions are the latest as of April 2025
+
+<!-- As the library versions keep on changing, it is recommended to mention the version of the library used in this project -->
 
 ## Conclusions
 
@@ -71,25 +86,9 @@ The study demonstrates that RNNs can capture temporal patterns in stock price da
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-
-## Technologies Used
-- Python Programming
-- NumPy objects to create arrays/metrics to apply DL/ML models
-- Panda for Data Wrangling and Data manipulation purposes
-- Seaborn to create visually appealing statistical graphics
-- Matplotlib to create a range of plots and visualizations
-- Iterator tool is to create iterator for efficient looping 
-- Scikit Learn ML (Machine Learning) Library
-- Keras is a high-level API for building and training NNs on top of TensorFlow
-- TensorFlow is an open-source ML framework for building and developing ML models
-- All the versions are the latest as of April 2025
-
-<!-- As the library versions keep on changing, it is recommended to mention the version of the library used in this project -->
-
 ## Acknowledgements
 I want to credit upGrad for the Master of Science in Machine Learning and Artificial Intelligence (AI/ML) degree alongside IIIT-Bangalore, and LJMU, UK
-- This project was inspired by all the Professors who trained us during the Recurrent Neural Networks, namely
-  - G.Srinivasaraghavan - Professor, IIIT-B
+- This project was inspired by all the Professors who trained us during the Recurrent Neural Networks, namely G.Srinivasaraghavan - Professor, IIIT-B
 
 ## Contact
 Created by [@rajaravisekara] - feel free to contact me, Raja - Sr Architect - AI Cloud
